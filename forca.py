@@ -1,8 +1,8 @@
 from random import choice
 from os import system
+from palavras import palavras
 
 def forca():
-    palavras = ['cavalo', 'aguia', 'gato', 'vaca']
     ROW = '************************************'
     
     palavra = choice(palavras).upper()
