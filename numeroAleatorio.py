@@ -24,7 +24,7 @@ def numeroAleatorio():
     RANDOM_NUMBER = randint(1, 100)
 
     for tentativas in range(0, MAX_TENTATIVAS):
-        print(f'Você está na rodada {(tentativas):02d}')
+        print(f'Você está na rodada {(tentativas + 1):02d}')
         try:
             number_choice = int(input('Tente acertar o número: '))
             while(number_choice < 0 or number_choice > 100):
