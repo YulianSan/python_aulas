@@ -36,7 +36,7 @@ def forca():
             
         print(letter_correct)
         win = '_' not in letter_correct
-        print(f'Você tem mais {7 - error} tentativas')    
+        print(f'Você tem mais {(7 - error):02d} tentativas')    
         input('Press enter to continue...')    
         system('cls')
     
