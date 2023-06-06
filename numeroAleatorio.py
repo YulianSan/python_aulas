@@ -38,8 +38,8 @@ def numeroAleatorio():
         is_equal = number_choice == RANDOM_NUMBER
         
         if is_equal:
-            print(f'Você acertou o número aleatório é {str(RANDOM_NUMBER)}')
-            exit()
+            print(f'Você acertou o número aleatório')
+            break
         else:
             tentativas += 1
             print('Errou o número')
